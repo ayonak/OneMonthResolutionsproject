@@ -1,0 +1,84 @@
+body {
+     background: url('../images/notebook.png');
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7;
+     font-size: 100%;
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+.alignleft {
+     float: left;
+     margin: 0 15px 15px 0px;
+}
+
+.alignright {
+     float: right;
+     margin: 0 0 15px 15px;
+}
+
+.grey {
+     color: grey;
+}
+
+#container {
+     width: 1000px;
+     margin: 0 auto 0 auto;
+}
+
+     h1 {
+          margin: 20px 0 0 0;
+     }
+     h2 {
+          font-size: 75%;
+          margin: 0 0 20px 0;
+     }
+     h3 {
+          font-size: 180%;
+          margin: 0 0 0 0;
+     }
+     h4 {
+          font-size: 180%;
+          margin: 0 0 0 0;
+     }
+     h5 {
+          font-size: 180%;
+          margin: 0 0 0 0;
+     }
+
+     blockquote {
+          margin: 0 auto 0 2px;
+          border-left: 3.5px solid lightgrey;
+          padding: 0 6px 0 6px;
+          font-style: italic;
+     }
+#header {
+
+}
+
+#main {
+     background: white;
+     width: 550px;
+     float: left;
+     padding: 50px;
+}
+
+#sidebar {
+     background: white;
+     width: 235px;
+     float: right;
+     padding: 50px;
+     border-left: 3px solid darkgrey;
+     border-bottom: 3px solid darkgrey;
+}
+
+a {
+     color: orangered;
+     text-decoration: none;
+}
